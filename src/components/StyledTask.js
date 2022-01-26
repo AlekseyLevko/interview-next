@@ -16,22 +16,35 @@ const StyledTask = styled.div`
     p {
       margin-top: 16px;
     }
-
-    strong {
-      padding: 2px 4px;
-      border-radius: 4px;
-      background-color: rgba(108, 152, 223, 0.24);
-      font-weight: normal;
-    }
   }
 
   a {
     color: rgba(108, 152, 223, 1);
   }
 
+  strong {
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: rgba(108, 152, 223, 0.24);
+    font-weight: normal;
+  }
+
   .Tack__schemaContainer {
     margin: 0 auto;
     margin-top: 24px;
+  }
+
+  ul {
+    margin-top: 24px;
+    margin-left: 20px;
+
+    li {
+      list-style-type: disc;
+    }
+
+    li:not(:first-child) {
+      margin-top: 8px;
+    }
   }
 `;
 

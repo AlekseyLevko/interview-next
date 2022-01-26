@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Layout } from "../../src/components/Layout";
 import { StyledTask } from "../../src/components/StyledTask";
-import { getAmountPointsInCircle } from "../../src/solutions/getAmountPointsInCircle";
+import { getNumberOfPointsInCircle } from "../../src/solutions/getNumberOfPointsInCircle";
 
 export default function Task() {
   return (
@@ -35,7 +35,7 @@ export default function Task() {
           <h3 className="[ Font_head24 ]">Примечание:</h3>
           <p>
             Данная функция должна быть реализована в файле{" "}
-            <strong>/src/solutions/getAmountPointsInCircle.js</strong>.
+            <strong>/src/solutions/getNumberOfPointsInCircle.js</strong>.
           </p>
         </div>
       </StyledTask>
@@ -44,4 +44,4 @@ export default function Task() {
 }
 
 // please do not delete the line below
-getAmountPointsInCircle;
+getNumberOfPointsInCircle;
