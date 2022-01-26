@@ -1,0 +1,970 @@
+.Content {
+  max-width: calc(944px + 2 * 64px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+@media (max-width: 992px) {
+  .Content {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Content {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.Color_black {
+  color: #000000;
+}
+
+.Color_black80 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.Color_black64 {
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Color_black48 {
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.Color_black32 {
+  color: rgba(0, 0, 0, 0.32);
+}
+
+.Color_black16 {
+  color: rgba(0, 0, 0, 0.16);
+}
+
+.Color_blue {
+  color: rgba(108, 152, 223, 1);
+}
+
+.Color_blueStroke {
+  color: rgba(108, 152, 223, 0.24);
+}
+
+.Color_blueLight {
+  color: #f3f7fc;
+}
+
+.Color_white {
+  color: #ffffff;
+}
+
+.Color_red {
+  color: #e65d5d;
+}
+
+.Color_white64 {
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.Font_head48-56 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.Font_head32-48 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.Font_headMed32-48 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.Font_head32 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.Font_headMed32 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.Font_head28 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.Font_headMed28 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.Font_head24 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.Font_head24-32 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.Font_head20Black {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.Font_head20 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.Font_head16Black {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Font_head16Bold {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Font_head14Bold {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.Font_textMed20 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.Font_textReg20 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.Font_textMed16 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.Font_textReg16 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.Font_textMed14 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.Font_textReg14 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.Font_btn16 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.Font_btn14 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.Font_captionMed12 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.Font_caption10 {
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+@media (max-width: 992px) {
+  .lg\:Font_head40-48 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .lg\:Font_head32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .lg\:Font_headMed32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .lg\:Font_head28 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .lg\:Font_headMed28 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .Lg\:Font_head24 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .lg\:Font_head24-32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_head24-32Thin {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_head20Black {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_head20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_head16Black {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .lg\:Font_head16Bold {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .lg\:Font_head14Bold {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lg\:Font_textMed20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_textReg20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_textMed16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_textReg16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_textMed14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .lg\:Font_textReg14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .lg\:Font_btn16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .lg\:Font_btn14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .lg\:Font_captionMed12 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .lg\:Font_caption10 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .md\:Font_head32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .md\:Font_headMed32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .md\:Font_head28 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .md\:Font_headMed28 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .md\:Font_head24 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .md\:Font_head24-32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .md\:Font_head24-32Thin {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .md\:Font_head20Black {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .md\:Font_head20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .md\:Font_head20Thin {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .md\:Font_head16Black {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:Font_head16Bold {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:Font_head16Thin {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .md\:Font_head14Bold {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .md\:Font_textMed20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .md\:Font_textReg20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .md\:Font_textMed16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .md\:Font_textReg16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .md\:Font_textMed14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .md\:Font_textReg14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .md\:Font_btn16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .md\:Font_btn14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .md\:Font_captionMed12 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .md\:Font_caption10 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .sm\:Font_head32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sm\:Font_headMed32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .sm\:Font_head28 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .sm\:Font_headMed28 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .sm\:Font_head24 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .sm\:Font_head24-32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_head20Black {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_head20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_head20Thin {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_head16Black {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .sm\:Font_head16Bold {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .sm\:Font_head14Bold {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .sm\:Font_textMed20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_textReg20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_textMed16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_textReg16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_textMed14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .sm\:Font_textReg14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .sm\:Font_btn16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .sm\:Font_btn14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .sm\:Font_captionMed12 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .sm\:Font_caption10 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .es\:Font_head24 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .es\:Font_headMed28 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .es\:Font_head32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .es\:Font_headMed32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .es\:Font_head28 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .es\:Font_head24-32 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .es\:Font_head20Black {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .es\:Font_head20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .es\:Font_head16Black {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .es\:Font_head16Bold {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .es\:Font_head14Bold {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .es\:Font_textMed20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .es\:Font_textReg20 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .es\:Font_textMed16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .es\:Font_textReg16 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .es\:Font_textMed14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .es\:Font_textReg14 {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

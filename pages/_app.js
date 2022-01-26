@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import { Fonts } from "../src/components/Fonts";
+import "../styles/global.css";
+import "../styles/reset.css";
+import "../styles/tokens.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Fonts />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
