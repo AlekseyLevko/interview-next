@@ -32,7 +32,7 @@ export default function Task() {
                 <div>Принимаемое значение:</div>
                 <div>Возвращаемое значение:</div>
               </div>
-              <div className="[ Task__resultsContainerRow ]">
+              <div className="[ Task__resultsContainerRow Task__resultContainerRowWithImages ]">
                 <div className="[ Task__resultBefore ]">
                   <Image
                     src="/obj_before_transform.png"
@@ -72,8 +72,11 @@ const LocalStyles = styled.div`
 
   .Task__resultsContainerRow > * {
     flex: 1;
-    line-height: 0;
     padding: 0 16px;
+  }
+
+  .Task__resultContainerRowWithImages {
+    line-height: 0;
   }
 `;
 

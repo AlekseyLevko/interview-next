@@ -42,7 +42,10 @@ export default function Home() {
             </Link>
           </li>
           <li className="[ Home_task ]">
-            <Link href="/tasks/3" className="[  ] [ Color_blue Font_head20 ]">
+            <Link
+              href="/tasks/clone_deep"
+              className="[  ] [ Color_blue Font_head20 ]"
+            >
               5. Реализовать функцию глубокого клонирования.
             </Link>
           </li>
