@@ -1,5 +1,5 @@
 export const getNumberOfPointsInCircle = (radius) => {
-  // реализация функцииlet
+  // реализация функции
   let counter = 0;
 
   for (let i = -radius; i <= radius; i++) {

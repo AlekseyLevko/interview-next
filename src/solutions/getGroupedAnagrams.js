@@ -1,4 +1,5 @@
 export const getGroupedAnagrams = (anagrams) => {
+  // реализация функции
   const sortedAnagrams = anagrams.map((anagram) =>
     anagram.split("").sort().join("")
   );
